@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "env": {
+    "nodejs_compat": true
+  },
+  "functions": {
+    "api/**": {
+      "memory": 1024,
+      "timeout": 60
+    }
+  }
+}
